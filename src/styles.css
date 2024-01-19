@@ -1,6 +1,6 @@
 body {
   opacity: 90%;
-  background-image: url("../public/assets/background/background.webp");
+  background-image: url("/background/background.webp");
 }
 
 h1,
