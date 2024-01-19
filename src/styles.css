@@ -29,3 +29,15 @@ hr {
   display: grid;
   justify-items: center;
 }
+
+@media (max-width: 768px) {
+  .mediaquery .row > * {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 442px) {
+  .mediaquery .row > * {
+    flex: 0 0 100%;
+  }
+}
