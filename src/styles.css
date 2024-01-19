@@ -1,0 +1,31 @@
+body {
+  opacity: 90%;
+  background-image: url("../public/background/background.webp");
+}
+
+h1,
+h3,
+h4,
+hr {
+  margin-top: 2px;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+.login-page {
+  display: grid;
+  margin-top: 2em;
+  background-color: white;
+  justify-content: center;
+  justify-items: center;
+}
+
+.login-text {
+  color: black;
+  text-shadow: none;
+}
+
+.input {
+  display: grid;
+  justify-items: center;
+}
